@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+</head>
+<body onkeydown="move()" >
+<div class="container">
+    <canvas id="board"></canvas>
+    <div class="sidebar">
+        <div>
+            <h1>XẾP HÌNH ĐÊ</h1>
+            <p>ĐIỂM : <span id="sorce">0</span></p>
+        </div>
+        <button class="playbutton">CHƠI DI EM Ê</button>
+    </div>
+</div>
+<script src="canvas.js"></script>
+<script src="board.js"></script>
+<script src="mainbrick.js"></script>
+<script src="brick.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

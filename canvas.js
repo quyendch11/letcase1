@@ -1,0 +1,9 @@
+let cols = 10;
+let rows = 20;
+let block_size = 30;
+let color_map = ['black','white'];
+let white_colorid = 1;
+let canvas = document.getElementById("board");
+let ctx =canvas.getContext("2d");
+ctx.canvas.width = cols * block_size;
+ctx.canvas.height = rows * block_size;
